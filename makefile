@@ -1,4 +1,4 @@
-NAME = sdilio/nodeapp
+NAME = dilio007/nodeapp
 VERSION = 0.0.1
 
 .PHONY: build build-nocache test tag-latest push push-latest release git-tag-version
