@@ -7,7 +7,7 @@ jobs:
     resource_class: arm.medium
     steps:
       - run: echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
-      - run: ls -la | pwd
+      - run: ls -la 
       - run: make build
       - run: make push
       
