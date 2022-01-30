@@ -1,4 +1,4 @@
-FROM amd64v8/node
+FROM arm64v8/node
 
 
 WORKDIR /usr/src/app
