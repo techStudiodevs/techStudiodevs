@@ -4,7 +4,7 @@ version: 2.1
 jobs:
   build-medium:
     machine:
-      image: node:latest
+      image: arm64v8/alpine
     resource_class: arm.medium
     steps:
       - run: uname -a
